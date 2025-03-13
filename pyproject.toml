@@ -1,0 +1,33 @@
+[project]
+name = "ablationmage"
+version = "0.1.0"
+description = "Agentic ablationmage"
+readme = "README.md"
+requires-python = "~=3.13"
+dependencies = [
+    "langchain-core>= 0.3",
+    "langchain_community",
+    "langchain-openai",
+    "langchain-anthropic",
+    "langchain",
+    "langgraph",
+    "torch",
+    "torchvision",
+    "tensorboard",
+    "bs4",
+    "PyPDF2",
+    "fpdf",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "seaborn",
+    "scikit-learn",
+    "scipy",
+    "torchmetrics",
+    
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.7.2",
+]
