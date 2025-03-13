@@ -2,6 +2,7 @@
 
 A framework for automated code ablation studies using LLM agents. This project helps analyze the importance of different components in neural network architectures through systematic removal and testing.
 
+![Ablation](/sources/ablation_study.png)
 ## Overview
 
 Agentic Ablation uses a multi-agent workflow to automatically:
