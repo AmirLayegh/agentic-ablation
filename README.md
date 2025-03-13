@@ -3,6 +3,7 @@
 A framework for automated code ablation studies using LLM agents. This project helps analyze the importance of different components in neural network architectures through systematic removal and testing.
 
 ![Ablation](/sources/ablation_study.png)
+![langgraph](/sources/langgraph.png)
 ## Overview
 
 Agentic Ablation uses a multi-agent workflow to automatically:
@@ -34,7 +35,7 @@ git clone https://github.com/yourusername/agentic-ablation.git
 cd agentic-ablation
 
 # Install dependencies with uv (using pyproject.toml)
-uv pip install -e .
+uv sync
 ```
 
 ### Usage
